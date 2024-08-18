@@ -13,15 +13,15 @@ Follow these instructions to run the game:
 	  Windows/Others: Get installer from https://www.dosbox.com/
 
 2) Install Turbo C 3.0
-   Create a directory called dosbox in some directory (result: $PATH/dosbox)
-   Inside this new directory, create a directory called TCSETUP (result: $PATH/dosbox/TCSETUP)
+   Create a directory called dosbox in some directory (example: D:/dosbox)
+   Inside this new directory, create a directory called TCSETUP (result: D:/dosbox/TCSETUP)
 
    Unzip the tc3.zip (included in this repo) into the TCSETUP directory.
 
    Execute dosbox.
 
    Following commands at the DOS prompt:
-   	     mount C: $PATH/dosbox/TCSETUP (Note: Replace $PATH with your actual directory path)
+   	     mount C: D:/dosbox/
 	     C:
 	     cd TCSETUP
 	     INSTALL.EXE
@@ -35,14 +35,12 @@ Follow these instructions to run the game:
 3) Run the game
 
    Execute dosbox:
-     mount C: $PATH/dosbox/TC
+     mount C: D:/dosbox/
      C:
      cd BIN
      TC.EXE
 
      File -> Open File -> Final.CPP
-     Settings -> Linker -> Graphics Library (Select it if it is not selected)
-
+     Settings -> Linker -> Graphics Library (Select it with SPACE KEY if it is not selected)
      Run -> Run
-
      Enjoy!
